@@ -1,0 +1,44 @@
+/* src/styles.css */
+:root {
+    --bg-color: #f3f4f6;
+    /* Default light background */
+    --text-color: #1f2937;
+    /* Default light text */
+    --primary-color: #3b82f6;
+    /* Default primary color */
+    --secondary-color: #60a5fa;
+    /* Default secondary color */
+    --header-bg: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    /* Default header background */
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Example Header Styling */
+header {
+    background: var(--header-bg);
+    color: var(--text-color);
+    transition: background 0.3s ease;
+}
+
+/* Example Footer Styling */
+footer {
+    background: var(--header-bg);
+    color: var(--text-color);
+    transition: background 0.3s ease;
+}
+
+/* Button Styling Using CSS Variables */
+.button-primary {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+}
+
+.button-secondary {
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+}
